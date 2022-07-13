@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <title>PROJECT: My Resume</title>
+</head>
+
+<body>
+  <div class="wrapper d-flex">
+    <header class="header d-flex">
+      <nav class="navigation d-flex">
+        <div class="box-img">
+          <img class="profile-photo" src="./img/profile-photo.jpg" alt="profile-photo">
+          <h2 class="name-profile">Flávio Pereira</h2>
+        </div>
+        <ul class="list">
+          <li class="item-list">
+            <a href="#home" class="link active-link d-flex">
+              <div class="box-icon d-flex">
+                <ion-icon class="icon-nav" name="home-outline"></ion-icon>
+              </div>
+              <span class="txt-link">Home</span>
+            </a>
+          </li>
+          <li class="item-list">
+            <a href="#about" class="link d-flex">
+              <div class="box-icon d-flex">
+                <ion-icon class="icon-nav" name="person-outline"></ion-icon>
+              </div>
+              <span class="txt-link">Sobre Mim</span>
+            </a>
+          </li>
+          <li class="item-list">
+            <a href="#resume" class="link d-flex">
+              <div class="box-icon d-flex">
+                <ion-icon class="icon-nav" name="newspaper-outline"></ion-icon>
+              </div>
+              <span class="txt-link">Currículo</span>
+            </a>
+          </li>
+          <li class="item-list">
+            <a href="#portfolio" class="link d-flex">
+              <div class="box-icon d-flex">
+                <ion-icon class="icon-nav" name="folder-outline"></ion-icon>
+              </div>
+              <span class="txt-link">Portfólio</span>
+            </a>
+          </li>
+          <li class="item-list">
+            <a href="#contact" class="link d-flex">
+              <div class="box-icon d-flex">
+                <ion-icon class="icon-nav" name="mail-outline"></ion-icon>
+              </div>
+              <span class="txt-link">Contato</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <footer class="footer-nav d-flex">
+        <div class="box-social-media d-flex">
+          <a href="https://www.linkedin.com/in/fl%C3%A1vio-pereira-641122163/" target="_blank">
+            <ion-icon class="icon-foot-nav" name="logo-linkedin"></ion-icon>
+          </a>
+          <a href="https://github.com/flaviosp15" target="_blank">
+            <ion-icon class="icon-foot-nav" name="logo-github"></ion-icon>
+          </a>
+        </div>
+        <p>2022 &copy Front-End Developer. <br> Some Rights Reserved.</p>
+      </footer>
+    </header>
+
+    <main class="main-content d-flex">
+      <section id="home" class="section active-page home">
+        <p>Home</p>
+      </section>
+      <section id="about" class="section about">
+        <p>Sobre Mim</p>
+      </section>
+      <section id="resume" class="section resume">
+        <p>Currículo</p>
+      </section>
+      <section id="portfolio" class="section portfolio">
+        <p>Portfólio</p>
+      </section>
+      <section id="contact" class="section contact">
+        <p>Contato</p>
+      </section>
+    </main>
+  </div>
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- JS File -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
