@@ -73,21 +73,49 @@
       </footer>
     </header>
 
-    <main class="main-content d-flex">
-      <section id="home" class="section active-page home">
-        <p>Home</p>
+    <main class="main-content">
+      <section id="home" class="section active-page home d-flex">
+        <div class="video-container d-flex">
+          <video autoplay muted loop>
+            <source src="./video/coding.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="box-home d-flex">
+          <h1 class="title-home">Flávio <span>Pereira</span></h1>
+          <p class="text-home">Eu sou um <span>Desenvolvedor Front-End</span></p>
+        </div>
       </section>
       <section id="about" class="section about">
-        <p>Sobre Mim</p>
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Sobre Mim.</h1>
+            <ion-icon class="icon-nav" name="person-outline"></ion-icon>
+          </div>
+        </div>
       </section>
       <section id="resume" class="section resume">
-        <p>Currículo</p>
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Currículo.</h1>
+            <ion-icon class="icon-nav" name="newspaper-outline"></ion-icon>
+          </div>
+        </div>
       </section>
       <section id="portfolio" class="section portfolio">
-        <p>Portfólio</p>
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Portfólio.</h1>
+            <ion-icon class="icon-nav" name="folder-outline"></ion-icon>
+          </div>
+        </div>
       </section>
       <section id="contact" class="section contact">
-        <p>Contato</p>
+        <div class="container">
+          <div class="section-header">
+            <h1 class="section-title">Contato.</h1>
+            <ion-icon class="icon-nav" name="mail-outline"></ion-icon>
+          </div>
+        </div>
       </section>
     </main>
   </div>

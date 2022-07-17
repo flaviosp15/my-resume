@@ -10,14 +10,18 @@ const disableLinksAndSections = function () {
 };
 const activeLinkAndSection = function (element) {
   element.classList.add('active-link');
-  const page = document.getElementById(
+  const section = document.getElementById(
     element.getAttribute('href').replace(/[#]/g, '')
   );
-  page.classList.add('active-page');
+  section.classList.add('active-page');
+  section.scrollTo({
+    top: 0,
+  });
 };
 
 navButtons.forEach(btn => {
-  btn.addEventListener('click', function () {
+  btn.addEventListener('click', function (event) {
+    event.preventDefault();
     disableLinksAndSections();
     activeLinkAndSection(btn);
   });
